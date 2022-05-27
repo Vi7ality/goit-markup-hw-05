@@ -741,13 +741,14 @@ margin-right: 50px;
 
 
     font-size: 18px;
-    line-height: 1.56px;
+    line-height: 1.56;
     
 }
 
 .projects-thumb:hover::before, .projects-thumb-text:hover {
     opacity: 1;
 }
+
 
 
 .projects .content {
