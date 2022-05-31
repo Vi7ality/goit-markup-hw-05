@@ -338,7 +338,11 @@ margin-right: 50px;
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 27px 0;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 27px 0; */
 
     font-size: 14px;
     line-height: 1.14;
@@ -354,7 +358,7 @@ margin-right: 50px;
 }
 
 
-/* Team */
+/* ===========================Team=================================== */
 .team.section {
     background-color: var(--secondary-background-color);
     
@@ -439,7 +443,7 @@ margin-right: 50px;
 }
 
 
-/*  CLIENTS */
+/*==============  CLIENTS ==================*/
 
 .clients-tittle {
     margin-bottom: 50px;
@@ -489,7 +493,7 @@ margin-right: 50px;
 }
 
 
-/* Footer */
+/* ================Footer ======================*/
 
 .footer {
     background: var(--additional-background-color);
@@ -525,12 +529,12 @@ margin-right: 50px;
     transition: color 250ms var(--timing-function);
 }
 
-.address .link {
+/* .address .link {
     color: rgba(255, 255, 255, 0.6);
 
     font-weight: 400;
     text-decoration: none;
-}
+} */
 
 .address .map:hover, address .map:focus {
     color: var(--accent-text-color);
@@ -542,9 +546,12 @@ margin-right: 50px;
 }
 
 .footer-contacts-item .link {
-    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    
+    font-weight: 400;
+    text-decoration: none;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.71;
     
     transition: color 250ms var(--timing-function);
 }
@@ -591,13 +598,11 @@ margin-right: 50px;
     fill: var(--primary-white-color);
     background: rgba(255, 255, 255, 0.1);
 
-    transition: background-color 250ms var(--timing-function),
-    fill 250ms var(--timing-function);
+    transition: background-color 250ms var(--timing-function);
 }
 
 .footer-networks-link:hover, .footer-networks-link:focus {
     background-color: var(--accent-text-color);
-    fill: var(--primary-white-color);
 
 }
 
@@ -627,7 +632,7 @@ margin-right: 50px;
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .modal {
@@ -670,13 +675,10 @@ margin-right: 50px;
 
 }
 
-/* .button-close-icon {
-    width: 18px;
-    height: 18px;
-} */
 
 
-/* PORTFOLIO.HTML STYLES */
+
+/*^^^^^^^^^^^^^^^^^ PORTFOLIO.HTML STYLES ^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 /* Project list */
 .project-nav.list {
